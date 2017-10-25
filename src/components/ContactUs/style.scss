@@ -1,0 +1,27 @@
+@import '../../styles/_variables';
+
+// Styling for the download section
+.contact {
+  text-align: center;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+
+    i {
+      color: $brand-google-plus;
+    }
+  }
+
+  ul.list-social {
+    margin-bottom: 0;
+
+    .list-inline-item {
+      margin-right: 10px;
+    }
+  }
+
+  .fa-heart {
+    margin-right: 10px;
+  }
+}

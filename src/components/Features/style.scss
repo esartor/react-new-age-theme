@@ -1,0 +1,23 @@
+// Styling for the features section
+.features {
+  .section-heading {
+    margin-bottom: 100px;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .device-container {
+    max-width: 325px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    @media(min-width: 992px) {
+      margin-bottom: 0;
+    }
+  }
+}

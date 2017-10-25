@@ -1,0 +1,12 @@
+# File Options
+files:
+  include: 'src/**/*.s+(a|c)ss'
+# Rule Configuration
+rules:
+  clean-import-paths:
+    - 1
+    - leading-underscore: true
+  indentation:
+    - 2
+    -
+      size: 2
