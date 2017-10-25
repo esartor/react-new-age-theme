@@ -6,7 +6,7 @@ import FAQPage from './pages/FAQ';
 
 
 const Routes = props => (
-  <Router {...props}>
+  <Router {...props} basename={process.env.PUBLIC_URL}>
     <div>
       <Route exact path="/" component={HomePage} />
       <Route path="/faq" component={FAQPage} />
