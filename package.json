@@ -1,6 +1,8 @@
 {
   "name": "react-new-age-theme",
   "homepage": "https://esartor.github.io/react-new-age-theme",
+  "author": "Emanuel Sartor",
+  "license": "MIT",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
